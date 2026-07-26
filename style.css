@@ -1,0 +1,242 @@
+.header{
+    display: flex;
+    flex-direction: column;   
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.top_header{
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    
+}
+.left{
+    display: flex;
+    align-items: center;
+
+}
+.YTmenu{
+    height: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.YTlogo{
+    height: 25px;
+    cursor: pointer;
+}
+.middle{
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 35px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Search_bar{
+    flex: 1;
+    height: 35px;
+    font-family: Roboto,arial;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: grey;
+    width: 0;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+.Search_bar:focus{
+    border-color: rgba(28, 98, 185);
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.4);
+}
+.YTsearch_button{
+    height: 37px;
+    width: 60px;
+    margin-left: -61px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+
+}
+.YTsearch_button:hover{
+    background-color: rgb(235, 233, 233);
+}
+.YTsearch{
+    height: 35px;
+}
+.YTvoice_button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(243, 243, 243);
+    margin-left: 2.5px;
+    cursor: pointer;
+
+}
+.YTvoice_button:hover{
+    background-color: rgb(235, 233, 233);
+}
+
+.right{
+    width: 180px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+
+}
+.upload_button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.upload_button:hover{
+    background-color: rgb(235, 233, 233); 
+}
+.upload{
+    height: 30px;
+    margin-right: 20px;
+}
+.notification_button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.notifications{
+    height: 30px;  
+}
+.notification_button:hover{
+    background-color: rgb(235, 233, 233); 
+}
+.YTprofile_pic{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    padding: 2px 20px;
+    margin-left: 50px;
+    background-color: white;
+
+}
+button{
+    background-color: rgb(255, 253, 253);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(235, 233, 233);
+}
+p{
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+     cursor: pointer;
+}
+body{
+    margin: 0;
+    padding-top: 140px;
+    padding-left: 80px;
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top:130px;
+    width: 70px;
+}
+.sidebar button{
+    height: 80px;
+    width: 75px; 
+    font-size: 12px;
+    font-family: Roboto, Arial;
+    background-color: white;
+    border: none;
+}
+.sidebar button img{
+    height: 35px;
+    width: 35px;
+}
+.sidebar button:hover{
+    background-color: rgb(235, 233, 233);
+}
+.thumbnail{
+   width: 100%;
+   border-radius: 20px;
+}
+.thumbnail:hover{
+        box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.15);   
+}
+.video_title{
+     margin-top: 0;
+    font-size: 14px;
+     font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 15px;
+}
+.video_author,
+.video_views{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}               
+.video_author{
+    margin-bottom: 4px;
+    cursor: pointer;
+
+}
+.div_preview:hover{
+    background-color: rgb(253, 246, 235);
+    border-radius: 20px;
+}
+                
+.video_info_grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+} 
+
+.profile_picture{
+    width: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+
+ }
+.thumbnail_row{
+    margin-bottom: 12px;
+}
+.video_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 20px;
+}
